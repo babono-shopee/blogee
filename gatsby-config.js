@@ -13,6 +13,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-notionso',
+      options: {
+        name: 'Blog',
+        rootPageUrl: 'https://www.notion.so/codelabsession/Blogee-db73bc5d933f4feda8145836a00afd68',
+        debug: false,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
